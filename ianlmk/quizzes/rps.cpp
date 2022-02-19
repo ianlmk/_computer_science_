@@ -60,37 +60,37 @@ int main() {
   switch (playerHand) {
     case 'r': case 'R':
       if (systemHand == 0) {
-        cout << "Computer plays:\n    (R)ock\n"
+        cout << "Computer plays:\n\n    (R)ock\n"
              << "\nIt's a TIE!\n" << endl;
       } else if (systemHand == 1) {
-        cout << "Computer plays:\n    (P)aper\n"
+        cout << "Computer plays:\n\n    (P)aper\n"
              << "\nThe Computer won!\n" << endl;
       } else if (systemHand == 2) {
-        cout << "\nComputer plays:\n    (S)cissors)\n"
+        cout << "\nComputer plays:\n\n    (S)cissors\n\n"
              << name << " Wins!\n" << endl;
       }
       break;
     case 'p': case 'P':
       if (systemHand == 1) {
-        cout << "Computer plays:\n    (P)aper\n"
+        cout << "Computer plays:\n\n    (P)aper\n"
              << "\nIt's a TIE!\n" << endl;
       } else if (systemHand == 2) {
-        cout << "Computer plays:\n    (S)cissors\n"
+        cout << "Computer plays:\n\n    (S)cissors\n"
              << "\nThe Computer won!\n" << endl;
       } else if (systemHand == 0) {
-        cout << "\nComputer plays:\n    (R)ock\n"
+        cout << "\nComputer plays:\n\n    (R)ock\n\n"
              << name << " Wins!\n" << endl;
       }
       break;
     case 's': case 'S':
       if (systemHand == 2) {
-        cout << "Computer plays:\n    (S)cissors\n"
+        cout << "Computer plays:\n\n    (S)cissors\n"
              << "\nIt's a TIE!\n" << endl;
       } else if (systemHand == 0) {
-        cout << "Computer plays:\n    (R)ock\n"
+        cout << "Computer plays:\n\n    (R)ock\n"
              << "\nThe Computer won!\n" << endl;
       } else if (systemHand == 1) {
-        cout << "\nComputer plays:\n    (P)aper\n\n"
+        cout << "\nComputer plays:\n\n    (P)aper\n\n"
              << name << " Wins!\n" << endl;
       }
       break;
