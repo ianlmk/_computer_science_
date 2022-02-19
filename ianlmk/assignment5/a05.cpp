@@ -24,7 +24,8 @@ int main() {
   string JK = "JK: Just kidding";
   string TMI = "TMI: Too much information";
   string TTYL = "TTYL: Talk to you later";
-  size_t found;
+  string OMG = "OMG: Oh my god";
+  string LOL = "LOL: Laugh out loud";
 
   cout << "Welcome to the Text Message Decoder!\n" << endl;
   cout << "Enter a single line text message: " << endl;
@@ -33,26 +34,60 @@ int main() {
 
   cout << "\nYou entered: \"" << inputString << "\"\n" <<endl;
 
-  found = inputString.find("BFF");
-  if (found != string::npos) {
+  if (inputString.find("BFF ") != string::npos) {
+    cout << BFF << endl;
+  } else if (inputString.find(" BFF") != string::npos ) {
+    cout << BFF << endl;
+  } else if (inputString.find(" BFF ") != string::npos) {
     cout << BFF << endl;
   }
 
-  found = inputString.find("IDK");
-  if (found != string::npos) {
+  if (inputString.find("IDK ") != string::npos) {
+    cout << IDK << endl;
+  } else if (inputString.find(" IDK") != string::npos ) {
+    cout << IDK << endl;
+  } else if (inputString.find(" IDK ") != string::npos) {
     cout << IDK << endl;
   }
-  found = inputString.find("JK");
-  if (found != string::npos) {
+
+  if (inputString.find("JK ") != string::npos) {
+    cout << JK << endl;
+  } else if (inputString.find(" JK") != string::npos ) {
+    cout << JK << endl;
+  } else if (inputString.find(" JK ") != string::npos) {
     cout << JK << endl;
   }
-  found = inputString.find("TMI");
-  if (found != string::npos) {
+
+
+  if (inputString.find("TMI ") != string::npos) {
     cout << TMI << endl;
-  }
-  found = inputString.find("TTYL");
-  if (found != string::npos) {
+  } else if (inputString.find(" TMI") != string::npos ) {
+    cout << TMI << endl;
+  } else if (inputString.find(" TMI ") != string::npos) {
+    cout << TMI << endl;
+  }  
+  
+  if (inputString.find("TTYL ") != string::npos) {
     cout << TTYL << endl;
+  } else if (inputString.find(" TTYL") != string::npos ) {
+    cout << TTYL << endl;
+  } else if (inputString.find(" TTYL ") != string::npos) {
+    cout << TTYL << endl;
+  }
+
+  if (inputString.find("OMG ") != string::npos) {
+    cout << OMG << endl;
+  } else if (inputString.find(" OMG") != string::npos ) {
+    cout << OMG << endl;
+  } else if (inputString.find(" OMG ") != string::npos) {
+    cout << OMG << endl;
+  }
+  if (inputString.find("LOL ") != string::npos) {
+    cout << LOL << endl;
+  } else if (inputString.find(" LOL") != string::npos ) {
+    cout << LOL << endl;
+  } else if (inputString.find(" LOL ") != string::npos) {
+    cout << LOL << endl;
   }
 
   cout << "\nFIN." << endl;
