@@ -1,14 +1,13 @@
 /*
-##############################################################################
+###################################################################################
 # Author:           Ian LaMotte-Kerr
-# Assignment:       Assignment 5
+# Assignment:       Assignment 6
 # Date:             $(date -j -f "%a %b %d %T %Z %Y" "`date`" "+%s")
 # Description:
-#
-# Input:
-# Output:
-# Sources:          assignment5.pdf
-##############################################################################
+# Input:            gumballRadius, containerSize
+# Output:           gumballCount, gumballAverage,largestGumball,largestGumballJar
+# Sources:          assignment6.pdf
+###################################################################################
 */
 
 #include <iostream>
@@ -79,8 +78,8 @@ int main() {
 
     cout << setw(50) << left << "\nNumber of plays: " << right << iterCount << endl;
     cout << setw(50) << left << "\nAverage gumball count: " << right << gumballAverage;
-    cout << setw(50) << left << "\nLargest gumball: " << right << largestGumball;
-    cout << setw(50) << left << "\nJar size holding the largest gumballs: " << right << largestGumballJar;
+    cout << setw(50) << left << "\nLargest gumball: " << right << largestGumball << "cm^3";
+    cout << setw(50) << left << "\nJar size holding the largest gumballs: " << right << largestGumballJar << "mL";
     cout << "\n_________________________________________________________\n"; 
     cout << "\nThank you for using my program!" << endl;; 
 
