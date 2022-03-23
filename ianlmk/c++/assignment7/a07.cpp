@@ -46,13 +46,13 @@ do { //big loop start
     cout << setw(36) << setfill(' ') << right << " selection: ";
     cin >> catSelection;
     while (cin.fail() == true) {
-      cout << "\nInvalid selection. >>cin.fail()<< Try again: ";
+      cout << "\nInvalid selection. Please choose 1-4: ";
       cin.clear();
       cin.ignore(256,'\n');
       cin >> catSelection;
     }
     while ((catSelection  <= 0) or (catSelection >= 5)) {
-      cout << "\nInvalid selection. >>numberTest failed<< Try again: ";
+      cout << "\nInvalid selection. Please choose 1-4: ";
       cin.clear();
       cin.ignore(256,'\n');
       cin >> catSelection;
