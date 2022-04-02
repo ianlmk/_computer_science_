@@ -6,7 +6,7 @@ Just a place to keep the code for school.
 
 ***
 
-The .bashrc is a form of env config to make it easy for ME to run single file programs using `cs <source_cpp>
+The .bashrc is a form of env config to make it easy for ME to run single file programs using `cs <source_cpp>`
 
 Example: 
 ```
