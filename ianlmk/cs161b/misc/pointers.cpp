@@ -37,7 +37,7 @@ int main() {
 
   // print to screen
   LOG(buffer);
-  LOG(*ptr);
+  LOG(ptr);
   
   delete[] buffer;
   std::cin.get();
