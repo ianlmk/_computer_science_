@@ -1,0 +1,86 @@
+Script started on 2022-04-10 14:28:44-07:00
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment1<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mSun Apr 10 14:28:44 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment1/[m>
+>>> sc ./a01.cpp 
+bash: sc: command not found
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment1<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mSun Apr 10 14:28:53 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment1/[m>
+>>> cs a01.cpp 
+[2J[1;1H
+***** Welcome to Mint Mobile *****
+
+Let's calculate your monthly bill.
+
+S: 2GB $35/mo*
+M: 4GB $50/mo*
+L: 8GB $70/mo*
+U: Unlimited $75/mo
+
+*Overage charges $15 per GB
+
+Which plan are you on? (S/M/L/U): 
+l
+How many GB of data did you use last month? 
+12 0
+
+Plan Charges: $70.00
+Overage Charges: $30.00
+Total Cost: $100.00
+
+Upgrade to Unlimited and save $25.00
+
+Thank you for choosing Mint Mobile.
+Goodbye!
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment1<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mSun Apr 10 14:29:06 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment1/[m>
+>>> cs a01.cpp 
+[2J[1;1H
+***** Welcome to Mint Mobile *****
+
+Let's calculate your monthly bill.
+
+S: 2GB $35/mo*
+M: 4GB $50/mo*
+L: 8GB $70/mo*
+U: Unlimited $75/mo
+
+*Overage charges $15 per GB
+
+Which plan are you on? (S/M/L/U): 
+s
+How many GB of data did you use last month? 
+4
+
+Plan Charges: $35.00
+Overage Charges: $30.00
+Total Cost: $65.00
+
+Thank you for choosing Mint Mobile.
+Goodbye!
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment1<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mSun Apr 10 14:29:18 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment1/[m>
+>>> cs a01.cpp 
+[2J[1;1H
+***** Welcome to Mint Mobile *****
+
+Let's calculate your monthly bill.
+
+S: 2GB $35/mo*
+M: 4GB $50/mo*
+L: 8GB $70/mo*
+U: Unlimited $75/mo
+
+*Overage charges $15 per GB
+
+Which plan are you on? (S/M/L/U): 
+4.01    m
+How many GB of data did you use last month? 
+6.23
+
+Plan Charges: $50.00
+Overage Charges: $45.00
+Total Cost: $95.00
+
+Thank you for choosing Mint Mobile.
+Goodbye!
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment1<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mSun Apr 10 14:29:37 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment1/[m>
+>>> exit
+exit
+
+Script done on 2022-04-10 14:29:41-07:00
