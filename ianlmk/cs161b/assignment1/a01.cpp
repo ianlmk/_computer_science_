@@ -74,6 +74,7 @@ char menuSelect() {
 }
 
 double dataUse(int limit) {
+  // calculate dataUsage
   double amountData = 0;
   do {
     std::cin.clear();
@@ -92,6 +93,7 @@ double dataUse(int limit) {
 }
 
 void billing(char selection){
+  // logic and output billing numbers
   double data;
   double limit = 0.0;;
   double planCharges = 0.0;
