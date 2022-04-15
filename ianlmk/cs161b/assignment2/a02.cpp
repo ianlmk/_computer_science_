@@ -1,13 +1,13 @@
 /*
-###################################################################################
+########################################################################################################
 # Author:           Ian LaMotte-Kerr
 # Assignment:       Assignment 2
 # Date:             $(date -j -f "%a %b %d %T %Z %Y" "`date`" "+%s")
-# Description:
-# Input:            
-# Output:          
-# Sources:          
-###################################################################################
+# Description:      This assignment calculates interest accrual over time. 
+# Input:            principal, time, interestRate, compoundEventCounts
+# Output:           interestAccrued, totalAccrued
+# Sources:          https://docs.google.com/document/d/1PGPeT1WWj1Gcxh_8TdMjbiR75LlhEUtsZiQ3vIIbl1w/edit
+#########################################################################################################
 */
 
 #include <iostream>
