@@ -1,0 +1,102 @@
+Script started on 2022-04-17 13:59:13-07:00
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment2<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mSun Apr 17 13:59:13 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment2/[m>
+>>> cs a02.cpp 
+[2J[1;1H###########################################################
+#                 Lets count some MONEY!!                 #
+###########################################################
+What would you like to do today?
+         1. Calculate Simple Interest
+         2. Calculate Compound Interest
+         3. Quit
+selection: 1
+
+Enter the principal amount in dollars: $10000
+Enter the interest rate (ex, for 3.75% enter: 3.75): 3.25
+Enter the number of years: 5
+
+Interest Accrued: 1625
+Total Accrued Amount (principal + interest): 11625
+-----------------------------------------------------------
+
+What would you like to do today?
+         1. Calculate Simple Interest
+         2. Calculate Compound Interest
+         3. Quit
+selection: 3
+
+Thanks for banking with us. Come again!
+###########################################################
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment2<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mSun Apr 17 13:59:43 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment2/[m>
+>>> cs a02.cpp 
+[2J[1;1H###########################################################
+#                 Lets count some MONEY!!                 #
+###########################################################
+What would you like to do today?
+         1. Calculate Simple Interest
+         2. Calculate Compound Interest
+         3. Quit
+selection: 2
+
+Enter the principal amount in dollars: $10000
+Enter the interest rate (ex, for 3.75% enter: 3.75): 3.25
+Enter the number of years: 5
+Enter the number of times to compound: 60
+
+Interest Accrued: 1763.97
+Total Accrued Amount (principal + interest): 11764
+-----------------------------------------------------------
+
+What would you like to do today?
+         1. Calculate Simple Interest
+         2. Calculate Compound Interest
+         3. Quit
+selection: 3
+
+Thanks for banking with us. Come again!
+###########################################################
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment2<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mSun Apr 17 14:00:04 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment2/[m>
+>>> cs a02.cpp 
+[2J[1;1H###########################################################
+#                 Lets count some MONEY!!                 #
+###########################################################
+What would you like to do today?
+         1. Calculate Simple Interest
+         2. Calculate Compound Interest
+         3. Quit
+selection: 1 -1
+
+Sadly, that is not an acceptable selection. Try again.
+selection: w
+
+Sadly, that is not an acceptable selection. Try again.
+selection: 1
+
+Enter the principal amount in dollars: $-1000
+you entered a value less than zero. Please retry.
+Enter the principal amount in dollars: $1000
+Enter the interest rate (ex, for 3.75% enter: 3.75): -4
+you entered a value less than zero. Please retry.
+Enter the interest rate (ex, for 3.75% enter: 3.75): 4
+Enter the number of years: 2 r
+Enter the number of years: p
+Enter the number of years: -1
+you entered a value less than zero. Please retry.
+Enter the number of years: 3
+
+Interest Accrued: 120
+Total Accrued Amount (principal + interest): 1120
+-----------------------------------------------------------
+
+What would you like to do today?
+         1. Calculate Simple Interest
+         2. Calculate Compound Interest
+         3. Quit
+selection: 3
+
+Thanks for banking with us. Come again!
+###########################################################
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment2<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mSun Apr 17 14:00:45 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment2/[m>
+>>> exit
+exit
+
+Script done on 2022-04-17 14:00:46-07:00
