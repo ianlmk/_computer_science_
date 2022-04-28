@@ -6,14 +6,14 @@
 int main() {
 
   int count;
-
+  std::cout << "Gimme a count to iterate: "; 
   std::cin >> count;
 
-  for (int i = 1; i <= count; i++) {
-    for (int x = i; x <= 5; x++) {
+  for (int i = 0; i < count; i++) {
+    for (int x = i ; x <= count; x++) {
       std::cout << x + i ;
     }  
-    std::cout << "\n";;
+    std::cout << "\n";
   }
 
 
