@@ -20,7 +20,8 @@ using namespace std;
 // f(x) prototypes
 void welcome();
 void menu(char& select);
-char readOption();
+char readOptionCH();
+int readOptionINT();
 void userInput(char& clubType, int& months, int& sessions);
 void calcCost(char clubType, int months, int sessions);
 
@@ -28,8 +29,8 @@ void calcCost(char clubType, int months, int sessions);
 const double SPORT_MEM = 20.0;
 const double ULTRA_MEM = 30.0;
 const double SESH = 10.0;
-const double YEAR_DISCOUNT = .10; 
-const double SESH_DISCOUNT = .20; 
+const double YEAR_DISCOUNT = .90; 
+const double SESH_DISCOUNT = .80; 
 
 int main () {
   char select = ' ';
@@ -43,9 +44,11 @@ int main () {
   if (tolower(select) == 'c') {
     userInput(clubType,months,sessions);
     calcCost(clubType,months,sessions);
-  }
-  if (tolower(select) == 'q') {
+  } else if (tolower(select) == 'q') {
     cout<<"Thanks for poking at my program!\n"<<endl;
+    exit(0);
+  } else {
+    cout<<"Sorry, that just isn't an option. Have a great day!"<<endl;
     exit(0);
   }
   
@@ -79,19 +82,31 @@ void menu(char& select) {
   cout<<"    (Q/q) quit this program.\n"<<endl;
   cout<<select;
   cout<<">> ";
-  select = readOption();
-  cout<<"selection: "<<select<<endl;
+  select = readOptionCH();
 }
 
-  // name:               readOptions()
+  // name:               readOptionsCH()
   // description:        accept a char and return it to the calling f(x)
   // input Parameters:   selection
   // output to console:  na
   // return:             selection
-char readOption() {
+char readOptionCH() {
   char selection = ' ';
   cin>>selection;
-  cout<<"\nCurrent selection = "<<selection<<endl;
+  //cout<<"\nCHAR selection = "<<selection<<endl;
+  return selection;
+}
+
+
+  // name:               readOptionsINT()
+  // description:        accept an int and return it to the calling f(x)
+  // input Parameters:   selection
+  // output to console:  na
+  // return:             selection
+int readOptionINT() {
+  int selection = ' ';
+  cin>>selection;
+  //cout<<"\nINT selection = "<<selection<<endl;
   return selection;
 }
   // name:               <
@@ -102,26 +117,25 @@ char readOption() {
 void userInput(char& clubType, int& months, int& sessions) {
   cout<<"\nWould you prefer (s)port or (u)ltraSport? ";
   do {
-    clubType = readOption();
-    cout<<"\nCurrent userInput selection = "<<clubType<<endl;
-    if (cin.fail() or clubType != 's' or clubType != 'u') {
+    clubType = readOptionCH();
+    if (cin.fail() or (clubType != 's' and clubType != 'u')) {
       cout<<"Invalid memebership type. Try again: ";
     }
-  } while (clubType != 's' or clubType != 'u');
+  } while (clubType != 's' and clubType != 'u');
 
-  cout<<"For how many months woudl you like to pay for? ";
+  cout<<"For how many months would you like to pay for? ";
   do {
-    months = readOption();
-    if (cin.fail() or months < 0 or months > 12) {
+    months = readOptionINT();
+    if (cin.fail() or months < 0) {
       cout<<"Invalid number of months. Try again: ";
     }
-  } while (cin.fail() or months < 0 or months > 12);
+  } while (cin.fail() or months < 0);
 
   cout<<"How many personal training sessions do you want? ";
   do {
-    sessions=readOption();
+    sessions=readOptionINT();
     if (cin.fail() or sessions < 0) {
-      cout<<"Cant have less than 0 sessions. Try again: ";
+      cout<<"Invalid number of sessions. Try again: ";
     }
   } while (cin.fail() or sessions < 0);
 
@@ -133,9 +147,28 @@ void userInput(char& clubType, int& months, int& sessions) {
   // output to console:  <
   // return:             <
 void calcCost(char clubType, int months, int sessions) {
+  double session_cost = 0.0;
   double total = 0.0;
-  cout<<"clubtype: "<<clubType<<endl;
-  cout<<"months: "<<months<<endl;
-  cout<<"sessions: "<<sessions<<endl;
-  cout<<"total: "<<total<<endl;
+
+  if (clubType = 'u') {
+    total = months * ULTRA_MEM;
+    cout<<setw(50)<<setfill(' ')<<left<<fixed<<setprecision(2)<<"Your ULTRASPORTS membership cost is: "<<right<<"$"<<total<<endl;
+  } else if (clubType = 's') {
+    total = months * SPORT_MEM;
+    cout<<setw(50)<<setfill(' ')<<left<<fixed<<setprecision(2)<<"Your SPORTS membership cost is: "<<right<<"$"<<total<<endl;
+  }
+  if (total > 11) {
+    total *= YEAR_DISCOUNT;
+    cout<<setw(50)<<setfill(' ')<<left<<fixed<<setprecision(2)<<"With the annual discount, the total is: "<<right<<"$"<<total<<endl;
+  }  
+
+
+  session_cost = SESH * sessions;
+  if (sessions > 4) {
+    session_cost *= SESH_DISCOUNT;
+    cout<<fixed<<setprecision(2)<<"Your personal training cost for "<<sessions<<setw(17)<<setfill(' ')<<left<<" sessions is: "<<right<<"$"<<session_cost<<endl;
+  }
+
+  total += session_cost;
+  cout<<setw(50)<<setfill(' ')<<left<<fixed<<setprecision(2)<<"That brings your total membership cost today to: "<<right<<"$"<<total<<endl;
 }
