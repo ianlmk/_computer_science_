@@ -1,0 +1,25 @@
+Script started on 2022-05-13 16:52:33-07:00
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment4<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mFri May 13 16:52:33 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment4/[m>
+>>> cs as[K04.cpp 
+[2J[1;1H###################################################
+#          Lets purge sort some arrays.           #
+###################################################
+
+  The original array is:
+
+    >> 42 3 9 42 42 0 42 9 42 42 17 8 2222 4 9 0 1 
+
+
+  The new and improved array is:
+
+    >> 3 0 17 8 4 0 1 0 0 0 0 0 0 0 0 0 0 
+
+---------------------------------------------------
+  K Thx Bye.
+---------------------------------------------------
+
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment4<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mFri May 13 16:52:36 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment4/[m>
+>>> exit
+exit
+
+Script done on 2022-05-13 16:52:43-07:00
