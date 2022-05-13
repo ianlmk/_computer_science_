@@ -1,0 +1,65 @@
+Script started on 2022-05-13 16:51:28-07:00
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment3<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mFri May 13 16:51:28 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment3/[m>
+>>> cs a03.cpp 
+[2J[1;1HWelcome to the assignment3 gym membership program
+
+Costs for becoming a member are as follows:
+
+        Sports Club:              $20.00
+    UltraSport Club:              $30.00
+
+**Prepaid annual memberships get 10% off the total**
+
+Personal training is $10.00 per session
+
+**Prepaid blocks of personal training sessions (5 minimum) get 20% off**
+
+Please pick an option:
+
+
+    (C/c) Calculate membership costs
+    (Q/q) quit this program.
+
+ >> c
+
+Would you prefer (s)port or (u)ltraSport? 11  s
+For how many months would you like to pay for? 11
+How many personal training sessions do you want? 3
+Your ULTRASPORTS membership cost is:              $330.00
+Your personal training cost for 3 sessions is:    $30.00
+That brings your total membership cost today to:  $360.00
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment3<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mFri May 13 16:51:40 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment3/[m>
+>>> cs a03.cpp 
+[2J[1;1HWelcome to the assignment3 gym membership program
+
+Costs for becoming a member are as follows:
+
+        Sports Club:              $20.00
+    UltraSport Club:              $30.00
+
+**Prepaid annual memberships get 10% off the total**
+
+Personal training is $10.00 per session
+
+**Prepaid blocks of personal training sessions (5 minimum) get 20% off**
+
+Please pick an option:
+
+
+    (C/c) Calculate membership costs
+    (Q/q) quit this program.
+
+ >> c
+
+Would you prefer (s)port or (u)ltraSport? 12  u
+For how many months would you like to pay for? 12
+How many personal training sessions do you want? 6
+Your ULTRASPORTS membership cost is:              $360.00
+With the annual discount, the total is:           $324.00
+Your personal training cost for 6 sessions is:    $48.00
+That brings your total membership cost today to:  $372.00
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment3<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mFri May 13 16:51:54 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment3/[m>
+>>> exit
+exit
+
+Script done on 2022-05-13 16:51:58-07:00
