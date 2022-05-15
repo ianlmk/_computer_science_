@@ -40,18 +40,19 @@ int main () {
 
 
   welcome();
-  menu(select);
-  if (tolower(select) == 'c') {
-    userInput(clubType,months,sessions);
-    calcCost(clubType,months,sessions);
-  } else if (tolower(select) == 'q') {
-    cout<<"Thanks for poking at my program!\n"<<endl;
-    exit(0);
-  } else {
-    cout<<"Sorry, that just isn't an option. Have a great day!"<<endl;
-    exit(0);
-  }
-  
+  do {
+    menu(select);
+    if (tolower(select) == 'c') {
+      userInput(clubType,months,sessions);
+      calcCost(clubType,months,sessions);
+    } else if (tolower(select) == 'q') {
+      cout<<"Thanks for poking at my program!\n"<<endl;
+      exit(0);
+    } else {
+      cout<<"Sorry, that just isn't an option. Have a great day!"<<endl;
+      exit(0);
+    }
+  } while (select == 'c'); 
   return 0;
 }
 
@@ -80,7 +81,7 @@ void menu(char& select) {
   cout<<"Please pick an option:\n"<<endl;
   cout<<"\n    (C/c) Calculate membership costs"<<endl;
   cout<<"    (Q/q) quit this program.\n"<<endl;
-  cout<<select;
+  //cout<<select;
   cout<<">> ";
   select = readOptionCH();
 }
@@ -150,20 +151,23 @@ void calcCost(char clubType, int months, int sessions) {
   double session_cost = 0.0;
   double total = 0.0;
 
-  if (clubType = 'u') {
+  if (clubType == 'u') {
     total = months * ULTRA_MEM;
     cout<<setw(50)<<setfill(' ')<<left<<fixed<<setprecision(2)<<"Your ULTRASPORTS membership cost is: "<<right<<"$"<<total<<endl;
-  } else if (clubType = 's') {
+  } else if (clubType == 's') {
     total = months * SPORT_MEM;
     cout<<setw(50)<<setfill(' ')<<left<<fixed<<setprecision(2)<<"Your SPORTS membership cost is: "<<right<<"$"<<total<<endl;
   }
-  if (total > 11) {
+  if (months > 11) {
     total *= YEAR_DISCOUNT;
     cout<<setw(50)<<setfill(' ')<<left<<fixed<<setprecision(2)<<"With the annual discount, the total is: "<<right<<"$"<<total<<endl;
   }  
 
 
   session_cost = SESH * sessions;
+  if (sessions < 5) {\
+    cout<<fixed<<setprecision(2)<<"Your personal training cost for "<<sessions<<setw(17)<<setfill(' ')<<left<<" sessions is: "<<right<<"$"<<session_cost<<endl;
+  }
   if (sessions > 4) {
     session_cost *= SESH_DISCOUNT;
     cout<<fixed<<setprecision(2)<<"Your personal training cost for "<<sessions<<setw(17)<<setfill(' ')<<left<<" sessions is: "<<right<<"$"<<session_cost<<endl;

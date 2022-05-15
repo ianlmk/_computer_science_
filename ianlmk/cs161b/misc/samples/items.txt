@@ -1,0 +1,6 @@
+Whole milk;2;200
+Pasta;5;175
+Apple Sauce;10;100
+Buttermilk;1;90
+Bananas;6;80
+Yogurt;10;100

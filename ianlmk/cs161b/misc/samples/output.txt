@@ -1,0 +1,26 @@
+Script started on 2022-04-19 11:30:00-07:00
+bash: cd: CS161B: No such file or directory
+bash-4.4$ ./score[K[Kpe[K[K[K[K[Kreference
+12.2
+0x7ffff13bb0d0
+12.2
+0x7ffff13bb0d0
+0x7ffff13bb0d0
+bash-4.4$ ./dowhile
+Enter a date in this format mm/dd/year: 12/23/2022
+23-12-2022
+Enter a date in this format mm/dd/year: 0/0/0
+0-0-0
+bash-4.4$ ./dowhile
+Enter a date in this format mm/dd/year: 02/23/1 2022
+23-2-2022
+Enter a date in this format mm/dd/year: 08/12/2022
+12-8-2022
+Enter a date in this format mm/dd/year: 9/23/2030
+23-9-2030
+Enter a date in this format mm/dd/year: 0/0/0
+0-0-0
+bash-4.4$ exit
+exit
+
+Script done on 2022-04-19 11:31:19-07:00
