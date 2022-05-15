@@ -1,0 +1,84 @@
+Script started on 2022-05-15 11:19:06-07:00
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/midterm<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mSun May 15 11:19:06 [m - [1;33m~/projects/cs161/ianlmk/cs161b/midterm/[m>
+>>> cs mp4.cpp 
+Original List!
+12
+15
+51
+70
+99
+49
+3
+85
+81
+35
+enter a number to check for: r
+enter a number to check for: t
+enter a number to check for: -2
+enter a number to check for: 3
+List after remove!
+3
+85
+81
+35
+Number of odds = 4
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/midterm<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mSun May 15 11:19:22 [m - [1;33m~/projects/cs161/ianlmk/cs161b/midterm/[m>
+>>> cs mp4.cpp 
+Original List!
+77
+30
+0
+47
+63
+67
+83
+51
+19
+19
+enter a number to check for: 34
+
+##############################################################
+The number you entered is an imposter. You have no power here!
+##############################################################
+
+List after remove!
+77
+30
+0
+47
+63
+67
+83
+51
+19
+19
+Number of odds = 8
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/midterm<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mSun May 15 11:19:40 [m - [1;33m~/projects/cs161/ianlmk/cs161b/midterm/[m>
+>>> cs mp4.cpp [C[C[C[C[2@vim ianT[C[C[C[C[C[C[C[C[Ccp mp2.cpp ianT.cpp[C[C[C[C[6Pvim ianT.cpp [C[C[C[C[2Pcs mp4[C[C[C[C[C
+Original List!
+31
+20
+2
+76
+54
+62
+48
+49
+84
+25
+enter a number to check for: 2
+List after remove!
+2
+76
+54
+62
+48
+49
+84
+25
+Number of odds = 2
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/midterm<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mSun May 15 11:20:11 [m - [1;33m~/projects/cs161/ianlmk/cs161b/midterm/[m>
+>>> exit
+exit
+
+Script done on 2022-05-15 11:20:13-07:00

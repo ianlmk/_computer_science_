@@ -22,19 +22,22 @@ using namespace std;
 
 
 int main () {
-  char arr[20][10];
-  int arrInt[20][10];
-  char word = ' ';
- 
-  for (int i=0;i<20;i++) {
-        cin.get(arr[i], 10);
-        strncat(arr[i], &word, 1);
-  }
-  size_t sz=sizeof(arr)/sizeof(arr[0][0]);
 
-  for (int x = 0; x < 20; x++) {
-      cout<<arr[x];
+
+  string words = "Hey Hi Hey Priya How are you Priya";
+  char arr[10][20];
+ 
+  for (int x = 0; x< sizeof(words)/sizeof(words.at(0)); x++) {
+    for(int i = 0;i< sizeof(words)/sizeof(words.at(0)); i++) {
+      if (words[i] != ' ') {
+        arr[x][i] = words[i];
+      } else if (words[i] == ' ') {
+        continue;
+      }
+    }
   }
+
+  cout<<arr<<endl; 
 
   return 0;
 }
