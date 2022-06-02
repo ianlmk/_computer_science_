@@ -1,0 +1,102 @@
+Script started on 2022-06-02 10:36:29-07:00
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment6<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mThu Jun 02 10:36:29 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment6/[m>
+>>> cs a06.cpp 
+[2J[1;1HGive me the filename: aidata_0.txt
+
+Occupation Name          Employed            Automation          Percent %
+-------------------------------------------------------------------------------------
+Administrative           23081               13849               60.0017%
+Agriculture              1060                594                 56.0377%
+Arts Entertainment       2773                555                 20.0144%
+Business                 8067                1129                13.9953%
+Computer                 4419                1635                36.9993%
+Construction             6813                3407                50.0073%
+Education                9427                1697                18.0015%
+Engineering              2601                494                 18.9927%
+Facilities Care          5905                2893                48.9924%
+FoodService              13206               10697               81.0011%
+Health Practitioner      8752                2888                32.9982%
+Health Support           4316                1726                39.9907%
+Legal                    1283                488                 38.0359%
+Maintenance              5654                1187                20.9940%
+Management               9533                2193                23.0043%
+Personal Care            6420                2183                34.0031%
+Production               9357                7592                81.1371%
+Protective               3506                1262                35.9954%
+Sales                    15748               6772                43.0023%
+Science                  1300                416                 32.0000%
+Social Service           2571                566                 22.0148%
+Transportation           10274               5651                55.0029%
+
+Production has the highest share at: (81.1371%)
+Business has the lowest share at: (13.9953%)
+Thank you!!
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment6<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mThu Jun 02 10:36:41 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment6/[m>
+>>> cs a06.cpp 
+[2J[1;1HGive me the filename: aidata_1.txt
+
+Occupation Name          Employed            Automation          Percent %
+-------------------------------------------------------------------------------------
+Administrative           13081               13849               105.8711%
+Agriculture              10460               594                 5.6788 %
+Arts Entertainment       2773                555                 20.0144%
+Business                 18067               1129                6.2490 %
+Computer                 4419                1635                36.9993%
+Construction             6813                3407                50.0073%
+Education                9427                1697                18.0015%
+Engineering              1601                494                 30.8557%
+Facilities Care          5905                2893                48.9924%
+FoodService              13206               10697               81.0011%
+Health Practitioner      8752                2888                32.9982%
+Health Support           4316                1726                39.9907%
+Legal                    1083                488                 45.0600%
+Maintenance              5654                1187                20.9940%
+Management               9533                2193                23.0043%
+Personal Care            6420                2183                34.0031%
+Production               9357                7592                81.1371%
+Protective               3506                1262                35.9954%
+Sales                    15748               6772                43.0023%
+Science                  1300                416                 32.0000%
+Social Service           2571                566                 22.0148%
+Transportation           10274               5651                55.0029%
+
+Administrative has the highest share at: (105.8711%)
+Agriculture has the lowest share at: (5.6788%)
+Thank you!!
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment6<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mThu Jun 02 10:36:50 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment6/[m>
+>>> cs a06.cpp 
+[2J[1;1HGive me the filename: aidata_2.txt
+
+Occupation Name          Employed            Automation          Percent %
+-------------------------------------------------------------------------------------
+Administrative           23081               13849               60.0017%
+Agriculture              1060                594                 56.0377%
+Arts Entertainment       2773                555                 20.0144%
+Business                 18067               11129               61.5985%
+Computer                 4419                1635                36.9993%
+Construction             6813                3407                50.0073%
+Education                9427                1697                18.0015%
+Engineering              2601                494                 18.9927%
+Facilities Care          5905                2893                48.9924%
+FoodService              13206               10697               81.0011%
+Health Practitioner      8752                2888                32.9982%
+Health Support           4316                1726                39.9907%
+Legal                    1283                488                 38.0359%
+Maintenance              5654                1187                20.9940%
+Management               9533                2193                23.0043%
+Personal Care            6420                7183                111.8847%
+Production               9357                7592                81.1371%
+Protective               3506                1262                35.9954%
+Sales                    15748               6772                43.0023%
+Science                  1300                416                 32.0000%
+Social Service           2571                1566                60.9102%
+Transportation           120274              15651               13.0128%
+
+Personal Care has the highest share at: (111.8847%)
+Transportation has the lowest share at: (13.0128%)
+Thank you!!
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment6<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mThu Jun 02 10:36:56 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment6/[m>
+>>> exit
+exit
+
+Script done on 2022-06-02 10:36:59-07:00
