@@ -1,0 +1,5 @@
+paper-napkins 6 0
+pretzels 5 10
+MandMs 10 100
+jellyBeans 10 50
+chocolate 5 25
