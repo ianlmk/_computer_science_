@@ -1,0 +1,70 @@
+//This program estimates your annual consumption of a commodity based on how much you consume a normal weekday and a normal weekend day.
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <cstring>
+
+using namespace std;
+
+const int MAXCHAR = 20;
+
+struct cereals{
+  string name;
+  int calories;
+  int fiber;
+  int sugars;
+  double rating;
+};
+
+
+// f(x) prototypes
+bool openFile(ifstream &inFile);
+void readFile(ifstream &inFile,cereals cereal[MAXCHAR]);
+
+int main() {
+
+  cereals cereal[MAXCHAR];
+
+  ifstream inFile;
+  
+
+  if (!openFile(inFile)) {
+    cout<<"File did not open. Program terminating"<<endl;
+    exit(1);
+  }
+
+  readFile(inFile,cereal);
+  for (int i = 0; i < sizeof(cereal)/sizeof(cereal[0]); i++) {
+    cout<<cereal[i].name<<endl;
+  }
+
+  inFile.close();
+  return 0;
+}
+
+
+bool openFile(ifstream &inFile) {
+
+  string filename;
+  cin>>filename;
+
+  inFile.open(filename);
+  if(!inFile) {
+    return false;
+  }
+
+  return true;
+}
+
+void readFile(ifstream &inFile,cereals cereal[MAXCHAR]) {
+
+  for (int i = 0; i < MAXCHAR; i++) {
+    while(!inFile.eof()) {
+      inFile >> cereal[i].name;
+      inFile >> cereal[i].calories;
+      inFile >> cereal[i].fiber;
+      inFile >> cereal[i].sugars;
+      inFile >> cereal[i].rating;
+    }
+  }
+}

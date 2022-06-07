@@ -1,0 +1,37 @@
+{
+	"Suburban Vehicle": {
+		"make": "Chevrolet",
+		"model": "Tahoe",
+		"year": 2015
+	},
+	"Compact Vehicle": {
+		"make": "Mini",
+		"model": "Cooper",
+		"year": 2009
+	},
+	"Truck": {
+		"make": "Ford",
+		"model": "F150",
+		"year": 2012
+	},
+	"Sports Car": {
+		"make": "Porsche",
+		"model": "911",
+		"year": 2018
+	},
+	"Convertible" : {
+		"make" : "Mazda",
+		"model" : "Miata",
+		"year" : 2016
+	},
+	"Minivan" : {
+		"make" : "Honda",
+		"model" : "Odyssey",
+		"year" : 2001
+	},
+	"Station Wagon" : {
+		"make" : "Volvo",
+		"model" : "Cross Country",
+		"year" : 2005
+	}
+}

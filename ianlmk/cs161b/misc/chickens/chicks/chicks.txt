@@ -1,0 +1,9 @@
+Breed;Age;Weight;FeedAmount;EggColor
+Marans;88:45:23:34;3000;114.55;Brown
+Silkie;43:12:34:78;1960;112.67;Bluish green
+Ameraucana;43:56:78:99;1960;109.34;Brown
+Silkie;65:34:78:56;2012;200.88;Pale Green
+Marans;88:45:23:34;3000;114.55;Brown
+Silkie;43:12:34:78;1960;112.67;Bluish green
+Ameraucana;43:56:78:99;1960;109.34;Light Blue
+Silkie;65:34:78:56;2012;200.88;Brown

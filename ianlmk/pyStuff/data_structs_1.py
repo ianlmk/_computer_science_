@@ -163,27 +163,53 @@ print("\n#########################################################")
 print("#                       MIN/MAX                         #")
 print("#########################################################")
 # There are a few ways to pull out min/max
+# this is lexographic, so chars and ints cant be mixed in lists and tuples. 
 # Start of algorithms. 
+print("ASCII chars are interesting with MIN/MAX.\nIts counting, so 'a' is min and 'z' is max.")
 #------------ Minimum Algo ------------#
 stringD= "the skinny brown fox xyz"
 minChar = stringD[0]
 maxChar = stringD[0]
 for i in range(0,len(stringD)):
   if stringD[i] != ' ':
-    if stringD[i] > minChar:
+    if stringD[i] < minChar:
       minChar = stringD[i]
 print("smallest char in '{}': '{}'".format(stringD, minChar))
+# can also be written as "minChar = min(stringD)"
 
 for i in range(0, len(stringD)):
   if stringD[i] != ' ':
-    if stringD[i] < maxChar:
+    if stringD[i] > maxChar:
       maxChar = stringD[i]
 print("largest char in '{}': '{}'".format(stringD, maxChar))
-
-    
-
+#can also be written as "maxChar = max(stringD)"
 
 
 
+print("\n#########################################################")
+print("#                       ADD/SUM                         #")
+print("#########################################################")
+# applies to ints/doubles/numbers
+# strings >> error
+print("ADD ITEMS IN A LIST:\n")
+sumList = 0
+numList = [2,3,5,6,1,4,9,8]
+for item in numList:
+  sumList += item
+print("numList =  [2,3,5,6,1,4,9,8]\nfor item in numList:\n  sumList += item\n  print(numList): {}".format(sumList))
 
+print("alternatives:\n")
+print("sum all items in the list:")
+print("  print(sum(numList)): {}".format(sum(numList)))
+print("sum the last 2 items in the list:")
+print("  print(sum(numList[-2:])): {}".format(sum(numList[-2:])))
+print("sum every other number in the list:")
+print("print(sum(numList[::2])): {}".format(sum(numList[::2])))
+
+print("\nADD ITEMS IN A TUPLE:\n")
+sumTuple = 0
+numTuple = (3,6,1,2,4,9,7)
+for item in numTuple:
+  sumTuple += item
+print("numTuple = (3,6,1,2,4,9,7)\nfor item in numTuple:\n  numTuple += item\n print(numTuple): {}".format(sumTuple))
 
