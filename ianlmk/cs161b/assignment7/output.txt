@@ -1,0 +1,106 @@
+Script started on 2022-06-08 21:27:28-07:00
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment7<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mWed Jun 08 21:27:28 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment7/[m>
+>>> cvim a07.cpp [C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pls -alh[C[C[C[Cvim a07.cpp [C[C[C[Ccat[C[C[C[C[C[C[C[C[C[C[C[C[C[7@vim Occupation[C[C[C[C[C[C[C[C[C[12Pls -alh[C[C[C[Cvim Occupation.cpp [C[C[C[C[7Pcat a07[C[C[C[C[C[C[C[C[Cvim[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pls -alh[C[C[C[Cvim a07.cpp [C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcs[C[C[C[C[C[C[C[C[C[C[C[C[C[1@vim[C[C[C[C[C[C[C[C[C[C[C[C[Cc[K[Kc++ -Wall -o main[1@*[1@.[1@c[1@p[1@p[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C && ./main
+File opened.
+Loading Data
+Occupation Name          Employed            Automation          Percent %
+-------------------------------------------------------------------------------------
+Administrative           23081               13849               60.0017%
+Agriculture              1060                594                 56.0377%
+Arts Entertainment       2773                555                 20.0144%
+Business                 8067                1129                13.9953%
+Computer                 4419                1635                36.9993%
+Construction             6813                3407                50.0073%
+Education                9427                1697                18.0015%
+Engineering              2601                494                 18.9927%
+Facilities Care          5905                2893                48.9924%
+FoodService              13206               10697               81.0011%
+Health Practitioner      8752                2888                32.9982%
+Health Support           4316                1726                39.9907%
+Legal                    1283                488                 38.0359%
+Maintenance              5654                1187                20.9940%
+Management               9533                2193                23.0043%
+Personal Care            6420                2183                34.0031%
+Production               9357                7592                81.1371%
+Protective               3506                1262                35.9954%
+Sales                    15748               6772                43.0023%
+Science                  1300                416                 32.0000%
+Social Service           2571                566                 22.0148%
+Transportation           10274               5651                55.0029%
+
+Production has the highest share at: (81.1371%)
+Administrative has the lowest share at: (60.0017%)
+Thank you!!
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment7<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mWed Jun 08 21:28:00 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment7/[m>
+>>> sed -i 's'[K?[K/3506/5506/g' aidata.txt [1@;[1@s[1@/[1@1[1@6[1@3[1@5[1@/[1@3[1@6[1@3[1@5[1@/[1@g
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment7<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mWed Jun 08 21:29:56 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment7/[m>
+>>> sed -i 's/3506/5506/g;s/1635/3635/g' aidata.txt [C[C[C[C[15Pc++ -Wall *.cpp -o main && ./main
+File opened.
+Loading Data
+Occupation Name          Employed            Automation          Percent %
+-------------------------------------------------------------------------------------
+Administrative           23081               13849               60.0017%
+Agriculture              1060                594                 56.0377%
+Arts Entertainment       2773                555                 20.0144%
+Business                 8067                1129                13.9953%
+Computer                 4419                3635                82.2584%
+Construction             6813                3407                50.0073%
+Education                9427                1697                18.0015%
+Engineering              2601                494                 18.9927%
+Facilities Care          5905                2893                48.9924%
+FoodService              13206               10697               81.0011%
+Health Practitioner      8752                2888                32.9982%
+Health Support           4316                1726                39.9907%
+Legal                    1283                488                 38.0359%
+Maintenance              5654                1187                20.9940%
+Management               9533                2193                23.0043%
+Personal Care            6420                2183                34.0031%
+Production               9357                7592                81.1371%
+Protective               5506                1262                22.9205%
+Sales                    15748               6772                43.0023%
+Science                  1300                416                 32.0000%
+Social Service           2571                566                 22.0148%
+Transportation           10274               5651                55.0029%
+
+Computer has the highest share at: (82.2584%)
+Administrative has the lowest share at: (60.0017%)
+Thank you!!
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment7<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mWed Jun 08 21:30:03 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment7/[m>
+>>> c++ -Wall *.cpp -o main && ./main[C[C[C[Csed -i 's/3506/5506/g;s/1635/3635/g' aidata.txt [1P[1P[1P[1P[1@4[1@1[1@6[C[C[C[C[C[1P[1P[1P[1P[1@1[1@2[1@9[1@9[1P[1P[1P[1P[1@5[1@6[1@5[1@1[C[C[C[C[C[1P[1P[1P[1P[1@1[1@0[1@0[1@0[1@0
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment7<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mWed Jun 08 21:30:42 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment7/[m>
+>>> sed -i 's/5651/10000/g;s/416/1299/g' aidata.txt [C[C[C[C[15Pc++ -Wall *.cpp -o main && ./main
+File opened.
+Loading Data
+Occupation Name          Employed            Automation          Percent %
+-------------------------------------------------------------------------------------
+Administrative           23081               13849               60.0017%
+Agriculture              1060                594                 56.0377%
+Arts Entertainment       2773                555                 20.0144%
+Business                 8067                1129                13.9953%
+Computer                 4419                3635                82.2584%
+Construction             6813                3407                50.0073%
+Education                9427                1697                18.0015%
+Engineering              2601                494                 18.9927%
+Facilities Care          5905                2893                48.9924%
+FoodService              13206               10697               81.0011%
+Health Practitioner      8752                2888                32.9982%
+Health Support           4316                1726                39.9907%
+Legal                    1283                488                 38.0359%
+Maintenance              5654                1187                20.9940%
+Management               9533                2193                23.0043%
+Personal Care            6420                2183                34.0031%
+Production               9357                7592                81.1371%
+Protective               5506                1262                22.9205%
+Sales                    15748               6772                43.0023%
+Science                  1300                1299                99.9231%
+Social Service           2571                566                 22.0148%
+Transportation           10274               10000               97.3331%
+
+Science has the highest share at: (99.9231%)
+Administrative has the lowest share at: (60.0017%)
+Thank you!!
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment7<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mWed Jun 08 21:30:45 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment7/[m>
+>>> exit
+exit
+
+Script done on 2022-06-08 21:30:49-07:00

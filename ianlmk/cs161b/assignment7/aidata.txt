@@ -2,7 +2,7 @@ Administrative;23081;13849
 Agriculture;1060;594
 Arts Entertainment;2773;555
 Business;8067;1129
-Computer;4419;1635
+Computer;4419;3635
 Construction;6813;3407
 Education;9427;1697
 Engineering;2601;494
@@ -15,8 +15,8 @@ Maintenance;5654;1187
 Management;9533;2193
 Personal Care;6420;2183
 Production;9357;7592
-Protective;3506;1262
+Protective;5506;1262
 Sales;15748;6772
-Science;1300;416
+Science;1300;1299
 Social Service;2571;566
-Transportation;10274;5651
+Transportation;10274;10000
