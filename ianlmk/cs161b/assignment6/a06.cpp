@@ -93,9 +93,9 @@ int loadData(ifstream &inFile, char occupations[][MAXCHAR], int nums[][2]) {
   inFile.getline(occupations[i], MAXCHAR, ';');
   while(!inFile.eof()) {
 
-    inFile >> nums[i][1];
+    inFile >> nums[i][0];
     inFile.ignore(5, ';');
-    inFile >> nums[i][2];
+    inFile >> nums[i][1];
     inFile.ignore(5, '\n');
 
     i++;
@@ -115,22 +115,26 @@ void printData(char occupations[][MAXCHAR], int nums[][2], int count) {
   cout<<setw(85)<<setfill('-')<<left<<""<<endl;
   for(int i = 0; i < count; i++) {
     //calculate total calories for each line
-    percentage = 100*(static_cast<double>(nums[i][2]) / static_cast<double>(nums[i][1]));
+    percentage = 100*(static_cast<double>(nums[i][1]) / static_cast<double>(nums[i][0]));
     //output each line
     cout<<setw(25)<<setfill(' ')<<left<<occupations[i];
+    cout<<setw(20)<<setfill(' ')<<left<<nums[i][0];
     cout<<setw(20)<<setfill(' ')<<left<<nums[i][1];
-    cout<<setw(20)<<setfill(' ')<<left<<nums[i][2];
     cout<<setw(7)<<setfill(' ')<<left<<fixed<<setprecision(4)<<percentage<<"%"<<endl;
   }
   cout<<endl;
 }
 
-
+  //              name: findHigh
+  //       description: finds the largest percentage of jobs automated compared to people employed. 
+  //  input Parameters: ocupations (2d char array), nums (2d int array), rows (int), occupationh (char array/cstring), highPercent(double reference)
+  // output to console: none
+  //            return: none
 void findHigh(char occupations[][20], int nums[][2], int rows, char occupationh[], double &highPercent) {
-  highPercent = static_cast<double>(nums[0][2]) / static_cast<double>(nums[0][1]);
+  highPercent = static_cast<double>(nums[0][1]) / static_cast<double>(nums[0][0]);
   strcpy(occupationh, occupations[0]);
   for ( int i = 0; i < rows; i++) {
-    double hp = (static_cast<double>(nums[i][2]) / static_cast<double>(nums[i][1]));
+    double hp = (static_cast<double>(nums[i][1]) / static_cast<double>(nums[i][0]));
     if (hp > highPercent) {
       highPercent = hp;
       strcpy(occupationh, occupations[i]);
@@ -141,12 +145,18 @@ void findHigh(char occupations[][20], int nums[][2], int rows, char occupationh[
 
 }
 
+
+  //              name: findLow
+  //       description: finds the lowest percentage of jobs automated compared to people employed.
+  //  input Parameters: ocupations (2d char array), nums (2d int array), rows (int), occupationl (char array/cstring), lowPercent(double reference)
+  // output to console: none
+  //            return: none
 void findLow(char occupations[][20], int nums[][2], int rows, char occupationl[], double &lowPercent) {
 
-  lowPercent = (static_cast<double>(nums[0][2]) / static_cast<double>(nums[0][1]));
+  lowPercent = (static_cast<double>(nums[0][1]) / static_cast<double>(nums[0][0]));
   strcpy(occupationl, occupations[0]);
   for ( int i = 0; i < rows; i++) {
-    double lp = (static_cast<double>(nums[i][2]) / static_cast<double>(nums[i][1]));
+    double lp = (static_cast<double>(nums[i][1]) / static_cast<double>(nums[i][0]));
     if ( lowPercent > lp ) {
       lowPercent = lp;
       strcpy(occupationl, occupations[i]);
