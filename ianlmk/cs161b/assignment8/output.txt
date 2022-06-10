@@ -1,0 +1,71 @@
+Script started on 2022-06-09 19:20:59-07:00
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment8<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mThu Jun 09 19:20:59 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment8/[m>
+>>> cs a08.cpp 
+Gimme int 1: -10
+Gimme int 2: 3
+
+Starting setup before f(x) calls:
+  int 1: -10
+  int 2: 3
+
+--------------------------------------------------
+
+After call to swapArgs:
+  int 1: 3
+  int 2: -10
+
+--------------------------------------------------
+
+After call to divideArgs:
+  int 1: 0
+  int 2: 3
+
+--------------------------------------------------
+
+After call to powerArgs:
+  int 1: 0
+  int 2: 3
+
+Goodbye!
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment8<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mThu Jun 09 19:21:15 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment8/[m>
+>>> cs a08.cpp 
+Gimme int 1: 3
+Gimme int 2: 17
+
+Starting setup before f(x) calls:
+  int 1: 3
+  int 2: 17
+
+--------------------------------------------------
+
+After call to swapArgs:
+  int 1: 17
+  int 2: 3
+
+--------------------------------------------------
+
+After call to divideArgs:
+  int 1: 5
+  int 2: 2
+
+--------------------------------------------------
+
+After call to powerArgs:
+  int 1: 25
+  int 2: 2
+
+Goodbye!
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment8<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mThu Jun 09 19:21:25 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment8/[m>
+>>> cs a08.cpp 
+Gimme int 1: 0
+Gimme int 2: 0
+
+Starting setup before f(x) calls:
+  int 1: 0
+  int 2: 0
+No operations performed
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/assignment8<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mThu Jun 09 19:21:34 [m - [1;33m~/projects/cs161/ianlmk/cs161b/assignment8/[m>
+>>> exit
+exit
+
+Script done on 2022-06-09 19:21:41-07:00
