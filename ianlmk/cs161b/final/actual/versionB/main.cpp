@@ -11,7 +11,6 @@ int main()
 	PersonType list[CAPACITY];
 	int 	   count  = 0;
 	char	   fileName[] = "persons.txt";
-        bool       removed = false;
 
 	populatePersons(list, count, fileName);
 
@@ -20,9 +19,8 @@ int main()
 
 
 	//call your functions here to do what is required.
-        removed = removePersons(list, count);
 
-        if (removed == false) {
+        if ( removePersons(list, count) == false) {
           cout<<"\n_________AFTER REMOVAL__________"<<endl;
           cout<<"That country has no entries in the dbase and no removals have taken place.\nThe dbase remains as it was. Thank you for checking."<<endl;
           printPersons(list, count);
