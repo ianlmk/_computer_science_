@@ -1,0 +1,114 @@
+Script started on 2022-06-15 20:59:39-07:00
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/final/actual/versionB<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mWed Jun 15 20:59:39 [m - [1;33m~/projects/cs161/ianlmk/cs161b/final/actual/versionB/[m>
+>>> c++ *.cpp -Wall -o main && ./main
+_________BEFORE REMOVAL__________
+
+--------------------------
+List of citizens database!
+--------------------------
+Gayathri;USA;22
+Stephanie;USA;27
+Priya;India;34
+Ahmed;Nigeria;52
+
+
+Please enter the country of citizenship you would like to remove from the list:
+  >>> USA
+
+_________AFTER REMOVAL__________
+
+--------------------------
+List of citizens database!
+--------------------------
+Priya;India;34
+Ahmed;Nigeria;52
+
+
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/final/actual/versionB<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mWed Jun 15 20:59:58 [m - [1;33m~/projects/cs161/ianlmk/cs161b/final/actual/versionB/[m>
+>>> c++ *.cpp -Wall -o main && ./main
+_________BEFORE REMOVAL__________
+
+--------------------------
+List of citizens database!
+--------------------------
+Gayathri;USA;22
+Stephanie;USA;27
+Priya;India;34
+Ahmed;Nigeria;52
+
+
+Please enter the country of citizenship you would like to remove from the list:
+  >>> Canda  ada
+
+_________AFTER REMOVAL__________
+That country has no entries in the dbase and no removals have taken place.
+The dbase remains as it was. Thank you for checking.
+
+--------------------------
+List of citizens database!
+--------------------------
+Gayathri;USA;22
+Stephanie;USA;27
+Priya;India;34
+Ahmed;Nigeria;52
+
+
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/final/actual/versionB<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mWed Jun 15 21:00:04 [m - [1;33m~/projects/cs161/ianlmk/cs161b/final/actual/versionB/[m>
+>>> c++ *.cpp -Wall -o main && ./main
+_________BEFORE REMOVAL__________
+
+--------------------------
+List of citizens database!
+--------------------------
+Gayathri;USA;22
+Stephanie;USA;27
+Priya;India;34
+Ahmed;Nigeria;52
+
+
+Please enter the country of citizenship you would like to remove from the list:
+  >>> Nigeria
+
+_________AFTER REMOVAL__________
+That country has no entries in the dbase and no removals have taken place.
+The dbase remains as it was. Thank you for checking.
+
+--------------------------
+List of citizens database!
+--------------------------
+Gayathri;USA;22
+Stephanie;USA;27
+Priya;India;34
+
+
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/final/actual/versionB<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mWed Jun 15 21:00:12 [m - [1;33m~/projects/cs161/ianlmk/cs161b/final/actual/versionB/[m>
+>>> c++ *.cpp -Wall -o main && ./main
+_________BEFORE REMOVAL__________
+
+--------------------------
+List of citizens database!
+--------------------------
+Gayathri;USA;22
+Stephanie;USA;27
+Priya;India;34
+Ahmed;Nigeria;52
+
+
+Please enter the country of citizenship you would like to remove from the list:
+  >>> India
+
+_________AFTER REMOVAL__________
+
+--------------------------
+List of citizens database!
+--------------------------
+Gayathri;USA;22
+Stephanie;USA;27
+Ahmed;Nigeria;52
+
+
+]0;ian.lamottekerr@vmcslinuxprod01:~/projects/cs161/ianlmk/cs161b/final/actual/versionB<[0;36mian.lamottekerr[0;32m@vmcslinuxprod01[m - [31mWed Jun 15 21:00:19 [m - [1;33m~/projects/cs161/ianlmk/cs161b/final/actual/versionB/[m>
+>>> exit
+exit
+
+Script done on 2022-06-15 21:00:21-07:00
