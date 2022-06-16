@@ -1,5 +1,18 @@
 //main driver file
-//add header comments here.
+
+/*
+###################################################################################
+# Author:           Ian LaMotte-Kerr
+# Assignment:       Final
+# Date:             $(date -j -f "%a %b %d %T %Z %Y" "`date`" "+%s")
+# Description:      accepts in a country to remove from a list of citizenship data
+# Input:            cship: char array
+# Output:           list: struct array
+# Sources:          person.h, person.cpp
+###################################################################################
+*/
+
+
 #include "person.h"
 const int CAPACITY = 20;
 
