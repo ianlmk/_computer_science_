@@ -49,7 +49,13 @@ void printPersons(const PersonType list[], int count)
     cout<<endl;
 }
 
-// function to remove a person from the list
+
+  //              name: removePersons
+  //       description: prompts for a country to remove from the list of names/citizenships list
+  //  input Parameters: cship: char array
+  // output to console: request for info
+  //            return: boolean: update success true or update success false. 
+
 bool removePersons(PersonType list[], int& count) {
   char cship[20];
   bool success = false;
